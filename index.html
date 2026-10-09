@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Naveen D A — Full Stack Developer</title>
+<meta name="description" content="Portfolio of Naveen D A — Information Technology student and full stack developer. Projects, skills, education and certifications.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <div class="logo"><span class="logo-mark"></span> NAVEEN</div>
+    <nav class="links" id="navLinks">
+      <a href="#home" class="current">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#activities">Activities</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-utility">
+      <a href="https://github.com/naveenda-2007" target="_blank" rel="noopener" class="icon-btn" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.8 5.4.8 11.7c0 5 3.2 9.2 7.7 10.7.6.1.8-.3.8-.6v-2.1c-3.1.7-3.8-1.4-3.8-1.4-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.2-5.1-5.5 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3 1.1.9-.2 1.8-.4 2.8-.4s1.9.1 2.8.4c2.1-1.4 3-1.1 3-1.1.6 1.6.2 2.8.1 3.1.7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.2-5.1 5.5.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.5-1.5 7.7-5.7 7.7-10.7C23.2 5.4 18.3.5 12 .5z"/></svg>
+      </a>
+      <a href="https://leetcode.com/u/Naveen_D_A/" target="_blank" rel="noopener" class="icon-btn" aria-label="LeetCode">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 2.5 6.7 9.3a3 3 0 0 0 0 4.24l5 5a3 3 0 0 0 4.24 0l1.4-1.4a1 1 0 0 0-1.42-1.42l-1.4 1.4a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 0-1.4l6.8-6.8A1 1 0 1 0 13.5 2.5zM9.5 13h8a1 1 0 1 0 0-2h-8a1 1 0 1 0 0 2z"/></svg>
+      </a>
+      <!-- TODO (Naveen): replace href="#" with the real path to your resume PDF,
+           e.g. href="resume/Naveen_D_A_Resume.pdf" and add download if you want -->
+      <a href="resume/Naveen_D_A_Resume.docx" class="resume-btn" download>
+      Resume
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <path d="M12 3v14M6 11l6 6 6-6M4 21h16"/>
+      </svg>
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow reveal"><span class="eyebrow-line"></span> Hey there, I'm</div>
+      <h1 class="hero-name reveal">Naveen D A</h1>
+      <div class="hero-role reveal">Full Stack Developer · IT Student</div>
+      <p class="hero-desc reveal">I'm an Information Technology student who enjoys building practical applications and turning ideas into working software. Still learning, still shipping.</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn-primary">View My Work
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+        </a>
+        <a href="#contact" class="btn-ghost">Let's Connect</a>
+      </div>
+      <div class="hero-socials reveal">
+        <a href="https://github.com/naveenda-2007" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.8 5.4.8 11.7c0 5 3.2 9.2 7.7 10.7.6.1.8-.3.8-.6v-2.1c-3.1.7-3.8-1.4-3.8-1.4-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.2-5.1-5.5 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3 1.1.9-.2 1.8-.4 2.8-.4s1.9.1 2.8.4c2.1-1.4 3-1.1 3-1.1.6 1.6.2 2.8.1 3.1.7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.2-5.1 5.5.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.5-1.5 7.7-5.7 7.7-10.7C23.2 5.4 18.3.5 12 .5z"/></svg></a>
+        <a href="https://www.linkedin.com/in/naveen-d-a-1570793b0/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1s2.48 1.1 2.48 2.5zM.4 8.5h4.2V23H.4V8.5zM8 8.5h4v2h.05c.56-1 1.9-2.3 4-2.3 4.3 0 5.1 2.6 5.1 6V23h-4.2v-6.4c0-1.5 0-3.5-2.1-3.5s-2.5 1.7-2.5 3.4V23H8V8.5z"/></svg></a>
+        <a href="mailto:naveensoniya14@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 6l9 7 9-7"/></svg></a>
+      </div>
+    </div>
+
+    <div class="photo-stage reveal">
+      <div class="photo-dots"></div>
+      <div class="photo-blob"></div>
+      <div class="photo-frame-back"></div>
+      <div class="photo-frame">
+        <img src="images/profile.jpg" alt="Naveen D A" decoding="async">
+      </div>
+      <div class="photo-caption"><span class="dot"></span> Open to opportunities</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="about-top">
+      <div>
+        <div class="label reveal"><span class="bar"></span> About me</div>
+        <h2 class="about-heading reveal">Learning by <span>building things end to end,</span> one project at a time.</h2>
+      </div>
+      <div class="about-body reveal">
+        <p>I'm an Information Technology student with a strong academic foundation and a genuine interest in software development, programming, and data analytics.</p>
+        <p>I enjoy building practical applications, improving my problem-solving skills, learning new technologies, and turning ideas into useful digital solutions — I'm still early in that journey, and I like it that way.</p>
+        <a href="#projects" class="about-know">See what I've built
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="about-highlights">
+      <div class="highlight reveal">
+        <div class="h-label">Currently</div>
+        <div class="h-value">B.Tech IT student, VSBCETC · 2024–2028</div>
+      </div>
+      <div class="highlight reveal">
+        <div class="h-label">Academic standing</div>
+        <div class="h-value">9.32 CGPA up to 4th semester</div>
+      </div>
+      <div class="highlight reveal">
+        <div class="h-label">Learning right now</div>
+        <div class="h-value">Data Structures &amp; Algorithms</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section class="skills" id="skills">
+  <div class="wrap">
+    <div class="skills-head">
+      <div>
+        <div class="label reveal"><span class="bar"></span> What I work with</div>
+        <h2 class="skills-heading reveal">Technical skills.</h2>
+      </div>
+      <p class="skills-note reveal">What I work with &amp; what I'm learning.</p>
+    </div>
+
+    <div class="skills-groups">
+      <div class="skill-group reveal">
+        <div class="sg-title">PROGRAMMING</div>
+        <ul>
+          <li>Java</li>
+          <li>C</li>
+          <li>Python <span class="tag">Basic</span></li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <div class="sg-title">WEB DEVELOPMENT</div>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>PHP <span class="tag">Basic</span></li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <div class="sg-title">DATABASE &amp; CORE CONCEPTS</div>
+        <ul>
+          <li>MySQL</li>
+          <li>DBMS <span class="tag">Basic</span></li>
+          <li>OOP <span class="tag">Basic</span></li>
+          <li>Data Structures &amp; Algorithms <span class="tag">Learning</span></li>
+        </ul>
+      </div>
+      <div class="skill-group reveal">
+        <div class="sg-title">TOOLS &amp; SOFTWARE</div>
+        <ul>
+          <li>IntelliJ IDEA</li>
+          <li>VS Code</li>
+          <li>XAMPP</li>
+          <li>MS Excel</li>
+          <li>Android Studio</li>
+          <li>Antigravity</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="skills-foot reveal">
+      <div class="sf-block">
+        <div class="sg-title">SOFT SKILLS</div>
+        <div class="sf-row">Problem Solving · Adaptability · Teamwork · Communication · Creativity &amp; Innovation</div>
+      </div>
+      <div class="sf-block">
+        <div class="sg-title">LANGUAGES</div>
+        <div class="sf-row">Tamil · English</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS preview ================= -->
+<section class="projects" id="projects">
+  <div class="wrap">
+
+    <div class="projects-head">
+      <div class="label reveal">
+        <span class="bar"></span>
+        Selected work
+      </div>
+
+      <h2 class="projects-heading reveal">
+        A few things I've built so far.
+      </h2>
+    </div>
+
+
+    <!-- PROJECT 01 -->
+     <div class="project-feature reveal">
+
+  <!-- Project Details -->
+  <div>
+    <div class="project-num">01 — Featured</div>
+
+    <h3 class="project-name">SmartCalc</h3>
+
+    <p class="project-copy">
+      A modern calculator application focused on standard arithmetic
+      calculations, built with a clean, user-friendly interface.
+    </p>
+
+    <div class="stack">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+
+    <div class="project-links">
+
+      <!-- GitHub -->
+      <a href="https://github.com/naveenda-2007"
+         target="_blank"
+         rel="noopener">
+        GitHub
+
+        <svg width="12" height="12" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M7 17L17 7M7 7h10v10"/>
+        </svg>
+      </a>
+
+      <!-- Live Demo -->
+      <a href="https://naveenda-2007.github.io/Smartcalc/"
+         target="_blank"
+         rel="noopener">
+        Live demo
+
+        <svg width="12" height="12" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M7 17L17 7M7 7h10v10"/>
+        </svg>
+      </a>
+
+    </div>
+  </div>
+
+
+  <!-- Project Preview -->
+  <div class="project-visual">
+
+    <div class="mock">
+
+      <!-- SmartCalc Logo -->
+      <div class="mock-icon">
+      <span>＋</span>
+      <span>−</span>
+      <span>×</span>
+      <span>÷</span>
+      </div>
+
+      <!-- Project Name -->
+      <div class="mock-label">
+        SmartCalc
+      </div>
+
+      <!-- Project URL -->
+      <div class="mock-sub">
+        naveenda-2007.github.io/Smartcalc
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+    <!-- PROJECT 02 -->
+
+    <div class="projects-secondary">
+
+      <div class="proj-card proj-offset reveal">
+
+        <div class="project-num">02</div>
+
+        <h3 class="project-name-sm">
+          VSBCETC ClaimDesk
+        </h3>
+
+        <p class="project-copy-sm">
+          A college Lost &amp; Found portal that allows students to submit
+          lost or found reports, browse and search items, and manage listings.
+        </p>
+
+        <div class="stack">
+          <span>PHP</span>
+          <span>MySQL</span>
+        </div>
+
+        <div class="project-links">
+
+          <a href="https://github.com/naveenda-2007"
+             target="_blank"
+             rel="noopener">
+            GitHub
+
+            <svg width="12" height="12" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M7 17L17 7M7 7h10v10"/>
+            </svg>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CODING JOURNEY -->
+
+<section class="coding-journey">
+
+  <div class="wrap">
+
+    <div class="coding-profile reveal">
+
+      <div class="label">
+        <span class="bar"></span>
+        Coding journey
+      </div>
+
+      <div class="cp-text">
+        DSA is still a work in progress for me — here's where I practice
+        and improve.
+      </div>
+
+
+      <div class="leetcode-card">
+
+        <div class="lc-left">
+
+          <div class="lc-icon">
+
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M13.5 2.5 6.7 9.3a3 3 0 0 0 0 4.24l5 5a3 3 0 0 0 4.24 0l1.4-1.4a1 1 0 0 0-1.42-1.42l-1.4 1.4a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 0-1.4l6.8-6.8A1 1 0 1 0 13.5 2.5zM9.5 13h8a1 1 0 1 0 0-2h-8a1 1 0 0 0 0 2z"/>
+            </svg>
+
+          </div>
+
+
+          <div>
+
+            <div class="lc-name">
+              LeetCode
+            </div>
+
+            <div class="lc-role">
+              Problem solving &amp; DSA
+            </div>
+
+            <div class="lc-desc">
+              Currently practicing Data Structures &amp; Algorithms
+              and improving my problem-solving skills.
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <a href="https://leetcode.com/u/Naveen_D_A/"
+           target="_blank"
+           rel="noopener"
+           class="btn-primary">
+
+          View LeetCode Profile
+
+          <svg width="14" height="14" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M7 17L17 7M7 7h10v10"/>
+          </svg>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+<!-- ================= EDUCATION ================= -->
+ <section class="education" id="education">
+  <div class="wrap">
+
+    <div class="label reveal">
+      <span class="bar"></span> Education
+    </div>
+
+    <h2 class="edu-heading reveal">
+      Academic background so far.
+    </h2>
+
+    <div class="timeline">
+
+      <div class="tl-item tl-item-card reveal">
+        <div class="tl-year">2024 – 2028</div>
+
+        <div class="tl-body">
+          <h3>B.Tech — Information Technology</h3>
+          <div class="tl-sub">
+            VSB College of Engineering Technical Campus, Coimbatore
+          </div>
+        </div>
+
+        <div class="tl-score">
+          <span class="num">9.32</span>
+        </div>
+      </div>
+
+
+      <div class="tl-item tl-item-card reveal">
+        <div class="tl-year">2023 – 2024</div>
+
+        <div class="tl-body">
+          <h3>Higher Secondary (HSC)</h3>
+          <div class="tl-sub">
+            Model School, Sankari, Salem
+          </div>
+        </div>
+
+        <div class="tl-score">
+          <span class="num">82%</span>
+        </div>
+      </div>
+
+
+      <div class="tl-item tl-item-card reveal">
+        <div class="tl-year">2021 – 2022</div>
+
+        <div class="tl-body">
+          <h3>SSLC</h3>
+          <div class="tl-sub">
+            Model School, Sankari, Salem
+          </div>
+        </div>
+
+        <div class="tl-score">
+          <span class="num">80%</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- ================= CERTIFICATIONS / JOB SIMULATIONS / ACTIVITIES ================= -->
+<section class="achieve" id="certifications">
+  <div class="wrap">
+    <div class="label reveal"><span class="bar"></span> Certifications &amp; activities</div>
+    <h2 class="achieve-heading reveal">What I've done outside the classroom.</h2>
+
+    <div class="achieve-block reveal">
+      <div class="ab-title">CERTIFICATIONS</div>
+
+      <div class="cert-group">
+        <div class="cc-label">NPTEL</div>
+        <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-preview">
+            <img src="nptel/cloud-computing.jpg" alt="Cloud Computing &amp; Distributed Systems Certificate" loading="lazy" decoding="async">
+          </div>
+          <div class="cert-body">
+            <div class="cert-name">Cloud Computing &amp; Distributed Systems</div>
+            <div class="cert-org">NPTEL</div>
+            <a class="cert-link" href="nptel/Cloud_computing_Distributrd_System_NPTEL.pdf" target="_blank" rel="noopener">
+              View Certificate
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-preview">
+            <img src="nptel/iot.jpg" alt="Internet of Things Certificate" loading="lazy" decoding="async">
+          </div>
+          <div class="cert-body">
+            <div class="cert-name">Internet of Things (IoT)</div>
+            <div class="cert-org">NPTEL</div>
+            <a class="cert-link" href="nptel/IOT_NPTEL.pdf" target="_blank" rel="noopener">
+              View Certificate
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-preview">
+            <img src="nptel/machine-learning.jpg" alt="Machine Learning Certificate" loading="lazy" decoding="async">
+          </div>
+          <div class="cert-body">
+            <div class="cert-name">Machine Learning</div>
+            <div class="cert-org">NPTEL</div>
+            <a class="cert-link" href="nptel/Machine_Learning_NPTEL.pdf" target="_blank" rel="noopener">
+              View Certificate
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="cert-group">
+        <div class="cc-label">Infosys Springboard</div>
+        <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-preview">
+            <img src="infosys_springboard/Intoduction_to_Python.jpg" alt="Introduction to Python Certificate" loading="lazy" decoding="async">
+          </div>
+          <div class="cert-body">
+            <div class="cert-name">Introduction to Python</div>
+            <div class="cert-org">Infosys Springboard</div>
+            <a class="cert-link" href="infosys_springboard/Intoduction_to_Python.pdf" target="_blank" rel="noopener">
+              View Certificate
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-preview">
+            <img src="infosys_springboard/Introduction_to_Java.jpg" alt="Introduction to Java Certificate" loading="lazy" decoding="async">
+          </div>
+          <div class="cert-body">
+            <div class="cert-name">Introduction to Java</div>
+            <div class="cert-org">Infosys Springboard</div>
+            <a class="cert-link" href="infosys_springboard/Introduction_to_Java.pdf" target="_blank" rel="noopener">
+              View Certificate
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="achieve-block reveal">
+      <div class="ab-title">JOB SIMULATIONS <span>· Forage</span></div>
+
+      <div class="cert-group">
+        <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-preview">
+            <img src="job_simulation/Tata_Gen_AI.jpg" alt="Tata GenAI Powered Data Analytics Certificate" loading="lazy" decoding="async">
+          </div>
+          <div class="cert-body">
+            <div class="cert-name">GenAI Powered Data Analytics Job Simulation</div>
+            <div class="cert-org">Tata</div>
+            <a class="cert-link" href="job_simulation/Tata_Gen_AI.pdf" target="_blank" rel="noopener">
+              View Certificate
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-preview">
+            <img src="job_simulation/Deloitte_Data_Analytics.jpg" alt="Deloitte Data Analytics Certificate" loading="lazy" decoding="async">
+          </div>
+          <div class="cert-body">
+            <div class="cert-name">Data Analytics Job Simulation</div>
+            <div class="cert-org">Deloitte</div>
+            <a class="cert-link" href="job_simulation/Deolitte_Data_Analytics.pdf" target="_blank" rel="noopener">
+              View Certificate
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M7 17L17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="achieve-block reveal" id="activities">
+      <div class="ab-title">EVENTS &amp; ACTIVITIES</div>
+      <ul class="activity-list">
+        <li>Participated in coding contests and programming-related activities</li>
+        <li>Attended technical workshops</li>
+        <li>Participated in college-level technical events</li>
+        <li>Pitched a startup idea, <strong>CourierSetu</strong>, at a Startup Pitch Event</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT teaser ================= -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="label reveal label-center"><span class="bar"></span> Let's talk</div>
+    <h2 class="contact-heading reveal">Open to internships, projects, and good conversations about tech.</h2>
+    <p class="contact-sub reveal">The best way to reach me is by email — I try to reply within a day or two.</p>
+    <div class="contact-cta reveal">
+      <a href="mailto:naveensoniya14@gmail.com" class="btn-primary">Say hello
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
+      </a>
+    </div>
+    <div class="hero-socials socials-center reveal">
+      <a href="https://github.com/naveenda-2007" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.8 5.4.8 11.7c0 5 3.2 9.2 7.7 10.7.6.1.8-.3.8-.6v-2.1c-3.1.7-3.8-1.4-3.8-1.4-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.6 1.2 3.2.9.1-.7.4-1.2.7-1.5-2.5-.3-5.1-1.2-5.1-5.5 0-1.2.4-2.2 1.1-3-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3 1.1.9-.2 1.8-.4 2.8-.4s1.9.1 2.8.4c2.1-1.4 3-1.1 3-1.1.6 1.6.2 2.8.1 3.1.7.8 1.1 1.8 1.1 3 0 4.3-2.6 5.2-5.1 5.5.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.5-1.5 7.7-5.7 7.7-10.7C23.2 5.4 18.3.5 12 .5z"/></svg></a>
+      <a href="https://www.linkedin.com/in/naveen-d-a-1570793b0/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5C4.98 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1s2.48 1.1 2.48 2.5zM.4 8.5h4.2V23H.4V8.5zM8 8.5h4v2h.05c.56-1 1.9-2.3 4-2.3 4.3 0 5.1 2.6 5.1 6V23h-4.2v-6.4c0-1.5 0-3.5-2.1-3.5s-2.5 1.7-2.5 3.4V23H8V8.5z"/></svg></a>
+      <a href="https://leetcode.com/u/Naveen_D_A/" target="_blank" rel="noopener" aria-label="LeetCode"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 2.5 6.7 9.3a3 3 0 0 0 0 4.24l5 5a3 3 0 0 0 4.24 0l1.4-1.4a1 1 0 0 0-1.42-1.42l-1.4 1.4a1 1 0 0 1-1.4 0l-5-5a1 1 0 0 1 0-1.4l6.8-6.8A1 1 0 1 0 13.5 2.5zM9.5 13h8a1 1 0 1 0 0-2h-8a1 1 0 1 0 0 2z"/></svg></a>
+      <a href="mailto:naveensoniya14@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18v12H3z"/><path d="M3 6l9 7 9-7"/></svg></a>
+    </div>
+    <footer class="footer-note">© 2026 Naveen D A</footer>
+  </div>
+</section>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
